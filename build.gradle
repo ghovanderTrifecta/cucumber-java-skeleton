@@ -7,8 +7,10 @@ project.ext {
 dependencies {
     testCompile 'io.cucumber:cucumber-java:' + cucumberVersion
     testCompile 'io.cucumber:cucumber-junit:' + cucumberVersion
+    testCompile 'junit:junit:4.12'
 }
 
 repositories {
+    jcenter()
     mavenCentral()
 }
