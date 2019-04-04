@@ -1,0 +1,1 @@
+curl -X POST -F file=@/Users/garretthovander/Documents/GIT/Test/CucumberSkeleton/out/reports/Cucumber.json https://app.hiptest.com/import_test_reports/275598239444852619123575906824347175992/251772/cucumber-json
